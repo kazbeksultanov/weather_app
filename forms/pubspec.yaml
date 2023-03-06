@@ -1,0 +1,30 @@
+name: forms
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Local packages
+  localization:
+    path: ../localization
+
+
+  # State management
+  bloc: 8.1.0
+  flutter_bloc: 8.1.1
+
+  # Localization, font, icon
+  localized_string: 0.2.0
+  intl: 0.17.0
+
+  # Atomic helper packages
+  optional: 6.1.0+1
+  collection: 1.17.0
+  decimal: 2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

@@ -1,0 +1,2139 @@
+{
+  "@@locale": "en",
+  "@@last_modified": "2020-11-21T20:28:43.514643",
+  "title": "Weather App",
+  "@title": {
+    "description": "The application title",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "serverRequestError": "Server request error",
+  "@serverRequestError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "error": "Error",
+  "@error": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "actionCanceled": "Action canceled",
+  "@actionCanceled": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "connectionError": "Connection error",
+  "@connectionError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "noInternetError": "No internet connection",
+  "@noInternetError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "noConnectionToOurServers": "No connection to our servers",
+  "@noConnectionToOurServers": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "unexpectedError": "Unexpected error",
+  "@unexpectedError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "validationRequiredError": "This field is required",
+  "@validationRequiredError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "validationDecimalError": "Should be a valid number",
+  "@validationDecimalError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "validationOnlyDigitsError": "The value cannot be zero",
+  "@validationOnlyDigitsError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "validationNonNegativeNumberError": "Only positive numbers are allowed",
+  "@validationNonNegativeNumberError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "validationNonZeroNumberError": "Can't be zero",
+  "@validationNonZeroNumberError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "validationMinLengthError": "Field should have at least {length} characters",
+  "@validationMinLengthError": {
+    "type": "text",
+    "placeholders_order": [
+      "length"
+    ],
+    "placeholders": {
+      "length": {}
+    }
+  },
+  "validationExactLengthError": "Length should be equal to {length}",
+  "@validationExactLengthError": {
+    "type": "text",
+    "placeholders_order": [
+      "length"
+    ],
+    "placeholders": {
+      "length": {}
+    }
+  },
+  "validationWordCountError": "Field should have at least {length} words",
+  "@validationWordCountError": {
+    "type": "text",
+    "placeholders_order": [
+      "length"
+    ],
+    "placeholders": {
+      "length": {}
+    }
+  },
+  "validationLatinLowerCaseError": "Only Latin lowercase are accepted",
+  "@validationLatinLowerCaseError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "validationPasswordError": "Password must contain at least 6 characters, including: at least one uppercase and lowercase latin letter and number",
+  "@validationPasswordError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "decimalValidatorError": "This token can not have more than {decimal} decimal(s)",
+  "@decimalValidatorError": {
+    "type": "text",
+    "placeholders_order": [
+      "decimal"
+    ],
+    "placeholders": {
+      "decimal": {}
+    }
+  },
+  "cities": "Сities",
+  "@cities": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "searchCities": "Search cities",
+  "@searchCities": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "startEnteringCityName": "Start entering city name",
+  "@startEnteringCityName": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "noSelectedCitiesYet": "No selected cities yet. Select from search page",
+  "@noSelectedCitiesYet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "repeatPinCode": "Confirm PIN-code",
+  "@repeatPinCode": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "alreadyHaveWallet": "I already have a wallet",
+  "@alreadyHaveWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "createWallet": "Create a wallet",
+  "@createWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "onboarding1Underline": "Private keys",
+  "@onboarding1Underline": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "onboarding1": " that will never leave your device",
+  "@onboarding1": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "onboarding2Underline": "Safe storage of ",
+  "@onboarding2Underline": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "onboarding2": " all cryptocurrency in one place",
+  "@onboarding2": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "onboarding3Underline": "Fast and anonymous exchange",
+  "@onboarding3Underline": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "onboarding3": " of cryptocurrencies",
+  "@onboarding3": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "onboarding4Underline": "Earn, spend and trade",
+  "@onboarding4Underline": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "onboarding4": " with access to decentralized applications",
+  "@onboarding4": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "legal": "Legal information",
+  "@legal": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "legalHint": "To create a wallet, you must read the Terms of Service and Privacy Policy ",
+  "@legalHint": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "privacyPolicy": "Privacy policy",
+  "@privacyPolicy": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "termsOfUse": "Terms of Service",
+  "@termsOfUse": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "haveReadLegal": "I have read and accept the Terms of Service and Privacy Policy",
+  "@haveReadLegal": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "continueText": "Continue",
+  "@continueText": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "next": "Next",
+  "@next": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "backupCopy": "Back up your wallet",
+  "@backupCopy": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "backupCopyHint": "You will now see 12 words that will allow you to regain access to your wallet. Be prepared to keep your  secret phrase in a safe place.",
+  "@backupCopyHint": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "backupCopyAgree": "I understand that if I lose the secret phrase, then I will not be able to restore access to my wallet",
+  "@backupCopyAgree": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "generateMnemonic": "Generate words",
+  "@generateMnemonic": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "generateQrCode": "Generate QR code",
+  "@generateQrCode": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "yourSecretPhrase": "Your secret phrase",
+  "@yourSecretPhrase": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "secretPhraseHint": "Write down and keep these words in the correct order. Store it securely and do not pass it on to anyone.",
+  "@secretPhraseHint": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "copyPhrase": "Copy phrase",
+  "@copyPhrase": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "showQrCode": "Show QR code",
+  "@showQrCode": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "haveSecurelySavedPhrase": "I have securely saved the phrase",
+  "@haveSecurelySavedPhrase": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "verifyPhrase": "Verify your recovery phrase",
+  "@verifyPhrase": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "verifyPhraseHint": "Click on the words in the correct order to create a wallet.",
+  "@verifyPhraseHint": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "verify": "Confirm",
+  "@verify": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "currentBalance": "Current balance",
+  "@currentBalance": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "tryAgain": "Try again",
+  "@tryAgain": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "errorDetails": "Error details",
+  "@errorDetails": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "mnemonicHasCopied": "Mnemonic is copied to clipboard",
+  "@mnemonicHasCopied": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "qrCode": "QR code",
+  "@qrCode": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "mnemonicQrCodeHint": "This QR code contains your secret phrase. Store it securely and do not pass it on to anyone.",
+  "@mnemonicQrCodeHint": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "excellent": "Perfectly!",
+  "@excellent": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transfer": "Send",
+  "@transfer": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "receive": "Receive",
+  "@receive": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "copy": "Copy",
+  "@copy": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transactions": "Transactions",
+  "@transactions": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "noTransactions": "Your future transactions will be displayed here",
+  "@noTransactions": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "successfullyCopied": "Copied successfully",
+  "@successfullyCopied": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "setAmount": "Specify the amount",
+  "@setAmount": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "share": "Share this",
+  "@share": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "requestCurrency": "Request currency",
+  "@requestCurrency": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "requestMoneyType": "Request {currency}",
+  "@requestMoneyType": {
+    "type": "text",
+    "placeholders_order": [
+      "currency"
+    ],
+    "placeholders": {
+      "currency": {}
+    }
+  },
+  "enterAmount": "Enter the amount",
+  "@enterAmount": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transferCurrency": "Request currency",
+  "@transferCurrency": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "paste": "Paste",
+  "@paste": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "verifyTransactionPageTile": "Verify",
+  "@verifyTransactionPageTile": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "senderAddress": "Sender address",
+  "@senderAddress": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "recipientAddress": "Recipient's address",
+  "@recipientAddress": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "networkFee": "Network fee",
+  "@networkFee": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "sendMoney": "Send {total}",
+  "@sendMoney": {
+    "type": "text",
+    "placeholders_order": [
+      "total"
+    ],
+    "placeholders": {
+      "total": {}
+    }
+  },
+  "settings": "Settings",
+  "@settings": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "wallet": "Wallet",
+  "@wallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "wallets": "Wallets",
+  "@wallets": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "security": "Safety",
+  "@security": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "availableBalance": "On balance now",
+  "@availableBalance": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "pinCode": "PIN-code",
+  "@pinCode": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "password": "Password",
+  "@password": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "biometric": "Biometrics",
+  "@biometric": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "autoBlocking": "Automatic blocking",
+  "@autoBlocking": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "autoBlockingInstant": "Immediately",
+  "@autoBlockingInstant": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "autoBlockingIn1Minute": "After 1 minute",
+  "@autoBlockingIn1Minute": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "autoBlockingIn5Minutes": "After 5 minutes",
+  "@autoBlockingIn5Minutes": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "autoBlockingIn1Hour": "After 1 hour",
+  "@autoBlockingIn1Hour": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "autoBlockingIn5Hour": "After 5 hours",
+  "@autoBlockingIn5Hour": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "createPinCode": "Come up with a code",
+  "@createPinCode": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "enterPinCode": "Enter the code",
+  "@enterPinCode": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "toAccessTheApplication": "to access the application",
+  "@toAccessTheApplication": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "toUnlock": "to unlock",
+  "@toUnlock": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "createPassword": "Create password",
+  "@createPassword": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "repeatPassword": "Repeat password",
+  "@repeatPassword": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "enterPasswordAgain": "enter password again",
+  "@enterPasswordAgain": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "enterPassword": "enter password",
+  "@enterPassword": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "setPassword": "Set password",
+  "@setPassword": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "submit": "Send",
+  "@submit": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "addToken": "Add token",
+  "@addToken": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "addNewToken": "Add new token",
+  "@addNewToken": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "searchInputTitle": "Search...",
+  "@searchInputTitle": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "networkTokenType": "Network type",
+  "@networkTokenType": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "selectNetwork": "Select network",
+  "@selectNetwork": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "name": "Name",
+  "@name": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "contractAddress": "Contract address",
+  "@contractAddress": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "symbol": "Symbol",
+  "@symbol": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "decimals": "Decimals",
+  "@decimals": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "notFound": "Nothing is found",
+  "@notFound": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "feeOutOfRange": "Fee out of range: {min} - {max}",
+  "@feeOutOfRange": {
+    "type": "text",
+    "placeholders_order": [
+      "min",
+      "max"
+    ],
+    "placeholders": {
+      "min": {},
+      "max": {}
+    }
+  },
+  "insufficientBalance": "Insufficient funds on the balance sheet",
+  "@insufficientBalance": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "insufficientBalanceButtonTitle": "Insufficient funds",
+  "@insufficientBalanceButtonTitle": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "cancelled": "Canceled",
+  "@cancelled": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "save": "Save",
+  "@save": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "delete": "Delete",
+  "@delete": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "selectWallet": "Select a wallet",
+  "@selectWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "selectWalletError": "Failed to select wallet",
+  "@selectWalletError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "showSecretPhrase": "Show secret phrase",
+  "@showSecretPhrase": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "selectWalletSuccess": "Wallet selected successfully",
+  "@selectWalletSuccess": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "incomingTransaction": "Incoming transaction",
+  "@incomingTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "pendingTransaction": "Pending transaction",
+  "@pendingTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "outgoingTransaction": "Outgoing transaction",
+  "@outgoingTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "confirmation": "Confirmations",
+  "@confirmation": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transactionTime": "Transaction time",
+  "@transactionTime": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transactionHash": "Transaction hash",
+  "@transactionHash": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "failedTransaction": "Unsuccessful transaction",
+  "@failedTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transactionStatus": "Transaction status",
+  "@transactionStatus": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "successTransaction": "Successful ",
+  "@successTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "inProgressTransaction": "In progress",
+  "@inProgressTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "shareTransaction": "Share transaction",
+  "@shareTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transactionDetails": "Transaction details",
+  "@transactionDetails": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "invalidMnemonic": "The entered mnemonic phrase is not valid. Try again",
+  "@invalidMnemonic": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "passwordValidityToRules": "The password must meet the conditions:",
+  "@passwordValidityToRules": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "onlyLatinLetter": "only latin letters",
+  "@onlyLatinLetter": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "minOneUppercaseLetter": "min. 1 capital letter",
+  "@minOneUppercaseLetter": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "minOneLowercaseLetter": "min. 1 spelling letter",
+  "@minOneLowercaseLetter": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "minOneDigit": "min 1 digit",
+  "@minOneDigit": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "min6Characters": "min. 6 characters",
+  "@min6Characters": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "invalidAddress": "Invalid address for this network",
+  "@invalidAddress": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletAlreadyExists": "The wallet already exists",
+  "@walletAlreadyExists": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletWithThisNameAlreadyExists": "Wallet with this name already exists",
+  "@walletWithThisNameAlreadyExists": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "errorAddingNewToken": "Error adding token",
+  "@errorAddingNewToken": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "multiCoinWallet": "Multi Coin Wallet",
+  "@multiCoinWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "import": "Import",
+  "@import": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "whatIsAsecretPhrase": "What is a secret phrase?",
+  "@whatIsAsecretPhrase": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "secretPhrase": "Secret phrase",
+  "@secretPhrase": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "aboutSecretPhrase": "Usually 12 (sometimes 24) words separated by one space",
+  "@aboutSecretPhrase": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "cryptoCardWallet": "CryptoCardWallet",
+  "@cryptoCardWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "addressCopied": "Address copied successfully",
+  "@addressCopied": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "hashCopied": "Hash copied successfully",
+  "@hashCopied": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "assetAdded": "Currency added successfully",
+  "@assetAdded": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "importWalletStandardName": "Multi-coin wallet",
+  "@importWalletStandardName": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "success": "Success",
+  "@success": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ok": "OK",
+  "@ok": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "demo": "DEMO",
+  "@demo": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ohno": "Oh no!",
+  "@ohno": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "invalidValue": "Invalid value",
+  "@invalidValue": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "showStackTrace": "Show stack trace",
+  "@showStackTrace": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "hideStackTrace": "Hide stack trace",
+  "@hideStackTrace": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "passwordNotMatch": "Password code doesn't match",
+  "@passwordNotMatch": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "pinNotMatch": "PIN-code doesn't match",
+  "@pinNotMatch": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "enableCameraPermission": "Please enable camera permission",
+  "@enableCameraPermission": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "failedToLoadSession": "Failed to load session",
+  "@failedToLoadSession": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "none": "None",
+  "@none": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "fingerprint": "Fingerprint",
+  "@fingerprint": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "faceID": "Face ID",
+  "@faceID": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "invalidPinCode": "Invalid PIN-code",
+  "@invalidPinCode": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "invalidPassword": "Invalid password",
+  "@invalidPassword": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "invalidBiometric": "Invalid biometrics",
+  "@invalidBiometric": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "currencyNotFound": "Currency not found",
+  "@currencyNotFound": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "failedGenerateWallet": "Failed to generate new wallet",
+  "@failedGenerateWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "failedLoadingWalletState": "Failed to load wallet state",
+  "@failedLoadingWalletState": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "notAuthError": "User is not authorized",
+  "@notAuthError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "invalidAssetState": "Invalid asset state",
+  "@invalidAssetState": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "noContractInGivenToken": "No contract in this token",
+  "@noContractInGivenToken": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "successfullyPushedTransaction": "Transaction successfully sent",
+  "@successfullyPushedTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "letIsStart": "Let’s start",
+  "@letIsStart": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "openWallet": "Open a cryptocurrency wallet",
+  "@openWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWallet": "KeyWallet",
+  "@keyWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWalletWallet": "KeyWallet wallet",
+  "@keyWalletWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "orderEnterKeyWallet": "Order or connect your KeyWallet",
+  "@orderEnterKeyWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "bankCard": "Bank card",
+  "@bankCard": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "createOrOrderBankCard": "Order or connect a bank card",
+  "@createOrOrderBankCard": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "getReadyKeyWallet": "Prepare a KeyWallet card to activate it and create a wallet. If you don't have a wallet, order it using the link below.",
+  "@getReadyKeyWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "orderKeyWallet": "Order KeyWallet",
+  "@orderKeyWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "activateKeyWallet": "Activate KeyWallet",
+  "@activateKeyWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "startVerification": "Start verification",
+  "@startVerification": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "bringKeyWallet": "Bring KeyWallet to your phone",
+  "@bringKeyWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "bringKeyWalletLong": "Bring KeyWallet to the top of your phone. Do not remove the card until verification is complete.",
+  "@bringKeyWalletLong": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "setPinCode": "Setting the PIN Code",
+  "@setPinCode": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "setPinCodeRecommendation": "For your safety, we recommend setting a PIN to your KeyWallet. If you lose access to KeyWallet, we will ask for this code.",
+  "@setPinCodeRecommendation": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "continueWithOutPinCode": "Continue without PIN",
+  "@continueWithOutPinCode": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "assetStateNotFound": "ERROR ASSET STATE NOT FOUND",
+  "@assetStateNotFound": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transactionNotFound": "ERROR TRX NOT FOUND",
+  "@transactionNotFound": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "currencyNotSupported": "ERROR CURRENCY NOT SUPPORTED",
+  "@currencyNotSupported": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "addressNotFound": "ERROR ADDRESS NOT FOUND",
+  "@addressNotFound": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "assetNotFound": "ERROR ASSET NOT FOUND",
+  "@assetNotFound": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "authorizationMissing": "ERROR AUTH MISSING",
+  "@authorizationMissing": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "authorizationForbidden": "ERROR AUTH FORBIDDEN",
+  "@authorizationForbidden": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "invalidAuthorization": "ERROR AUTH INVALID",
+  "@invalidAuthorization": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "cannotParseJWTToken": "ERROR AUTH CANNOT PARSE TOKEN",
+  "@cannotParseJWTToken": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "invalidAuthorizationToken": "ERROR AUTH TOKEN INVALID",
+  "@invalidAuthorizationToken": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "userNotFound": "ERROR AUTH USER NOT FOUND",
+  "@userNotFound": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "noPermission": "ERROR AUTH NO PERMISSION",
+  "@noPermission": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "badPassword": "ERROR AUTH BAD PASSWORD",
+  "@badPassword": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "seedIsNotSet": "ERROR AUTH SEED NOT SET",
+  "@seedIsNotSet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "seedNotFound": "ERROR AUTH SEED NOT FOUND",
+  "@seedNotFound": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "addressNotSet": "ERROR ADDRESS NOT SET",
+  "@addressNotSet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "apiCurrencyNotFound": "ERROR CURRENCY NOT FOUND",
+  "@apiCurrencyNotFound": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transactionNotSet": "ERROR TRX NOT SET",
+  "@transactionNotSet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "assetStateInvalid": "ERROR ASSET STATE INVALID",
+  "@assetStateInvalid": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "assetIdIsNotSet": "ERROR ASSET NOT SET",
+  "@assetIdIsNotSet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "assetInvalid": "ERROR ASSET INVALID",
+  "@assetInvalid": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "currencyNotSet": "ERROR CURRENCY NOT SET",
+  "@currencyNotSet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "goBack": "Go back",
+  "@goBack": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "changePin": "Change PIN-code",
+  "@changePin": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "viewCardData": "View card details",
+  "@viewCardData": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "addKeyWalletCard": "Add KeyWallet card",
+  "@addKeyWalletCard": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "removeKeyWalletCard": "Remove KeyWallet card",
+  "@removeKeyWalletCard": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWalletCardData": "KeyWallet card information",
+  "@keyWalletCardData": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "cardIdLabel": "Card Id",
+  "@cardIdLabel": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "cardPublicKeyLabel": "Card public key",
+  "@cardPublicKeyLabel": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "cardStatusLabel": "Card status",
+  "@cardStatusLabel": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletPublicKeyLabel": "Wallet public key",
+  "@walletPublicKeyLabel": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWalletPinChangedSuccessfullyChanged": "KeyWallet PIN-code successfully changed",
+  "@keyWalletPinChangedSuccessfullyChanged": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWalletCardAlreadyAdded": "KeyWallet card already added",
+  "@keyWalletCardAlreadyAdded": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWalletCardNotAddedYet": "KeyWallet card not added yet",
+  "@keyWalletCardNotAddedYet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "advancedBtc": "Advanced BTC",
+  "@advancedBtc": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "advancedSettings": "Settings",
+  "@advancedSettings": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "maxFeeSat": "MAX fee (satoshi/byte):",
+  "@maxFeeSat": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "minFeeSat": "MIN fee (satoshi/byte):",
+  "@minFeeSat": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "sizeOfFeeSat": "Size of fee (satoshi/byte)",
+  "@sizeOfFeeSat": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transactionHint": "Lowering the price might cause transaction to get delayed or cancelled",
+  "@transactionHint": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "gasPrice": "Gas Price (Gwei)",
+  "@gasPrice": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "gasLimit": "Gas Limit",
+  "@gasLimit": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "nonce": "Nonce",
+  "@nonce": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWalletWallets": "KeyWallet wallets",
+  "@keyWalletWallets": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWalletSettings": "KeyWallet settings",
+  "@keyWalletSettings": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWalletActions": "KeyWallet actions",
+  "@keyWalletActions": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "noWallets": "No wallets",
+  "@noWallets": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "nfcIsDisable": "NFC is disable",
+  "@nfcIsDisable": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "notEnoughUtxo": "Not enough UTXO for the current transaction",
+  "@notEnoughUtxo": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "totalBalance": "Total balance",
+  "@totalBalance": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletDeleteSuccessfully": "Wallet deleted successfully",
+  "@walletDeleteSuccessfully": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "importWallet": "Import wallet",
+  "@importWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "createWalletWays": "Create wallet ways",
+  "@createWalletWays": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "symbolsNotUse": "symbols are not used (brackets, punctuation, etc.)",
+  "@symbolsNotUse": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "permissionDenied": "PERMISSION DENIED",
+  "@permissionDenied": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "badRequest": "BAD REQUEST",
+  "@badRequest": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "internalServer": "INTERNAL SERVER",
+  "@internalServer": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "unauthorized": "UNAUTHORIZED",
+  "@unauthorized": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWalletMethodNotFoundError": "KeyWallet method not found",
+  "@keyWalletMethodNotFoundError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "close": "close",
+  "@close": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "thisWalletAlreadyExist": "This wallet has already been imported",
+  "@thisWalletAlreadyExist": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "notEnoughResourcesForTransaction": "Insufficient funds for commission",
+  "@notEnoughResourcesForTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletNameChanged": "Wallet name changed",
+  "@walletNameChanged": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "currenciesNotAddedYet": "Currencies not added yet",
+  "@currenciesNotAddedYet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "openSetting": "Open settings",
+  "@openSetting": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "openSettingToEnableCamera": "Camera permission denied completely. You need to give permission in the settings.\nOpen settings?",
+  "@openSettingToEnableCamera": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "yes": "Yes",
+  "@yes": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "no": "No",
+  "@no": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transactionSpeed": "Transaction speed",
+  "@transactionSpeed": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "minutesShort": "min",
+  "@minutesShort": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "hourShort": "h",
+  "@hourShort": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "satoshiPerByte": "sat/byte",
+  "@satoshiPerByte": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "avgConfirmationTime": "Average confirmation time",
+  "@avgConfirmationTime": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "highForTransactionSpeed": "High",
+  "@highForTransactionSpeed": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "middleForTransactionSpeed": "Middle",
+  "@middleForTransactionSpeed": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "lowForTransactionSpeed": "Low",
+  "@lowForTransactionSpeed": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "customForTransaction": "Custom",
+  "@customForTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "enterFee": "Enter fee in sat/byte",
+  "@enterFee": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "fromTotalAmount": "of the total",
+  "@fromTotalAmount": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "assetWithSymbolNotFound": "Asset with symbol {symbol} not found",
+  "@assetWithSymbolNotFound": {
+    "type": "text",
+    "placeholders_order": [
+      "symbol"
+    ],
+    "placeholders": {
+      "symbol": {}
+    }
+  },
+  "hide": "Hide",
+  "@hide": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "contextNotFoundException": "Context Not Found Exception",
+  "@contextNotFoundException": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "networks": "Networks",
+  "@networks": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "otherNetworks": "Other networks",
+  "@otherNetworks": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "sureToChangeNetwork": "Are you sure you want to switch network?",
+  "@sureToChangeNetwork": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "switchTo": "switch to",
+  "@switchTo": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "back": "Back",
+  "@back": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletConnect": "WalletConnect",
+  "@walletConnect": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletConnectInfoText": "Connect your wallet to WalletConnect to make transactions",
+  "@walletConnectInfoText": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "information": "Information",
+  "@information": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletConnectInfo": "WalletConnect is an open source protocol that allows you to connect your mobile wallet to decentralized applications (dApps) using a QR code. Remember to disconnect when you're done with dApps for security reasons.",
+  "@walletConnectInfo": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "newConnection": "New connection",
+  "@newConnection": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "activeSessionWillBeHere": "Active connections will appear here",
+  "@activeSessionWillBeHere": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "wantsToConnect": "wants to connect your wallet",
+  "@wantsToConnect": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletConnectText1": "View wallet balance and activity",
+  "@walletConnectText1": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletConnectText2": "Request for approval of transactions",
+  "@walletConnectText2": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "connect": "Connect",
+  "@connect": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "reject": "Reject",
+  "@reject": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "connected": "Connected",
+  "@connected": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "address": "Address",
+  "@address": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "disconnect": "Disconnect",
+  "@disconnect": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "smartContractCall": "Smart Contract Call",
+  "@smartContractCall": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "active": "Active",
+  "@active": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "from": "From",
+  "@from": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "networkFeeWc": "Network Fee",
+  "@networkFeeWc": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "maxTotal": "Max Total",
+  "@maxTotal": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "wcWarningText": "Make sure you trust this site. By interacting with it, you authorize this site to access your funds",
+  "@wcWarningText": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "wcAddressChange": "\nAddresses of active sessions on WalletConnect will be changed in the following DApps:",
+  "@wcAddressChange": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transactionData": "Transaction data",
+  "@transactionData": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "dataToSign": "Data to sign",
+  "@dataToSign": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "sessionWasDisconnected": "Session was disconnected",
+  "@sessionWasDisconnected": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "connectedTo": "Connected to {dAppUrl}",
+  "@connectedTo": {
+    "type": "text",
+    "placeholders_order": [
+      "dAppUrl"
+    ],
+    "placeholders": {
+      "dAppUrl": {}
+    }
+  },
+  "trc10TokenRequires7Digits": "Token TRC10 requires exactly 7 digit contract address",
+  "@trc10TokenRequires7Digits": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "trc20TokenRequires34stringLength": "Token TRC20 requires exactly 34 character contract address",
+  "@trc20TokenRequires34stringLength": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "tokenAlreadyAdded": "Token already added",
+  "@tokenAlreadyAdded": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "tronNetworkProhibitsTransactionsToYourself": "Tron network prohibits transactions to yourself",
+  "@tronNetworkProhibitsTransactionsToYourself": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "unknownTronNodeError": "Unexpected error. Try to complete the transaction later.\nServer message: ${message}",
+  "@unknownTronNodeError": {
+    "type": "text",
+    "placeholders_order": [
+      "message"
+    ],
+    "placeholders": {
+      "message": {}
+    }
+  },
+  "transactionTimeExpired": "Transaction time has expired. Try again.",
+  "@transactionTimeExpired": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "contractValidationFailed": "Contract not found",
+  "@contractValidationFailed": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "nativeCoin": "Native coin",
+  "@nativeCoin": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "contractAddressCopiedWarning": "You have copied a contract address. Any token sent to this address will be lost.",
+  "@contractAddressCopiedWarning": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "notEnoughTrxToCompleteTransaction": "Not enough TRX to complete the transaction",
+  "@notEnoughTrxToCompleteTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "cryptoCardWallets": "CryptoCardWallet wallets",
+  "@cryptoCardWallets": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "orderEnterCryptoWallet": "Order or connect your CryptoWallet",
+  "@orderEnterCryptoWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "firstTimeGeneratingAddressForCryptoCardWalletForThisAddress": "First time generating an address for this token. We need to scan CrytoCardWallet card of this wallet!",
+  "@firstTimeGeneratingAddressForCryptoCardWalletForThisAddress": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletNameCannotBeSpace": "Wallet name can not be space",
+  "@walletNameCannotBeSpace": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "noTokenForSwapException": "You do not have tokens for swap",
+  "@noTokenForSwapException": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "version": "Version:",
+  "@version": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "buy": "Buy",
+  "@buy": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "amountRecalculated": "Amount without commission. Final amount on the verification page",
+  "@amountRecalculated": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "sendMax": "Send max",
+  "@sendMax": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "dAppNotSupportAutoSelectNetwork": "does not support automatic network selection, please select a network",
+  "@dAppNotSupportAutoSelectNetwork": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "replacementTransactionUnderpricedException": "Replacement transaction underpriced error",
+  "@replacementTransactionUnderpricedException": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "currencies": "Currencies",
+  "@currencies": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "tooSmallDustValueForTransactionException": "Too small \"dust\" value for transaction. Try to increase value",
+  "@tooSmallDustValueForTransactionException": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "feeCanNotExceed1EthValueForTransactionException": "Fee can not exceed max value of 1 unit. Try to change gas price",
+  "@feeCanNotExceed1EthValueForTransactionException": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "feeHigherThanAmount": "Fee is higher than total available amount {amountMax}",
+  "@feeHigherThanAmount": {
+    "type": "text",
+    "placeholders_order": [
+      "amountMax"
+    ],
+    "placeholders": {
+      "amountMax": {}
+    }
+  },
+  "nonceTooLowTransactionException": "Nonce value is too low",
+  "@nonceTooLowTransactionException": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "advancedInfo": "Advanced info",
+  "@advancedInfo": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "nonceCopied": "Nonce copied",
+  "@nonceCopied": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "rawTransactionHex": "Raw transaction hex",
+  "@rawTransactionHex": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "rawTransactionHexCopied": "Raw transaction hex copied",
+  "@rawTransactionHexCopied": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "noAvailableWallets": "No available wallets",
+  "@noAvailableWallets": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "selectWalletType": "Select wallet type",
+  "@selectWalletType": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "otherWalletTypes": "Available wallets",
+  "@otherWalletTypes": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "pinCodeEnter": "Enter by PIN",
+  "@pinCodeEnter": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "authorization": "Authorization",
+  "@authorization": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "checkWalletType": "Be sure that the wallet type is correct",
+  "@checkWalletType": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "turnOff": "Turn off",
+  "@turnOff": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "turnOn": "Turn on",
+  "@turnOn": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  }
+}

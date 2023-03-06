@@ -1,0 +1,2145 @@
+{
+  "@@locale": "ru",
+  "@@last_modified": "2020-11-21T20:28:43.514643",
+  "title": "Weather App",
+  "@title": {
+    "description": "The application title",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "serverRequestError": "Ошибка запроса сервера",
+  "@serverRequestError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "error": "Ошибка",
+  "@error": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWalletSdkError": "Ошибка сервиса KeyWallet",
+  "@keyWalletSdkError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "actionCanceled": "Действие отменено",
+  "@actionCanceled": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "cities": "Города",
+  "@cities": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "searchCities": "Поиск городов",
+  "@searchCities": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "startEnteringCityName": "Начните вводить название города",
+  "@startEnteringCityName": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "noSelectedCitiesYet": "Пока нет выбранных городов. \nВыберите из страницы поиска",
+  "@noSelectedCitiesYet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "repeatPinCode": "Повторите PIN-код",
+  "@repeatPinCode": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "alreadyHaveWallet": "У меня уже есть кошелёк",
+  "@alreadyHaveWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "createWallet": "Создать кошелёк",
+  "@createWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "onboarding1Underline": "Приватные ключи",
+  "@onboarding1Underline": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "onboarding1": ", которые никогда не покинут ваше устройство",
+  "@onboarding1": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "onboarding2Underline": "Безопасное хранение",
+  "@onboarding2Underline": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "onboarding2": " всей криптовалюты в одном месте",
+  "@onboarding2": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "onboarding3Underline": "Быстрый и анонимный обмен",
+  "@onboarding3Underline": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "onboarding3": " криптовалюты",
+  "@onboarding3": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "onboarding4Underline": "Зарабатывайте, тратьте и торгуйте",
+  "@onboarding4Underline": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "onboarding4": " с доступом к децентрализованным приложениям",
+  "@onboarding4": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "legal": "Правовая информация",
+  "@legal": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "legalHint": "Для создания кошелька необходимо ознакомиться с Условиями обслуживания и Политикой конфиденциальности ",
+  "@legalHint": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "privacyPolicy": "Политика конфиденциальности",
+  "@privacyPolicy": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "termsOfUse": "Условия обслуживания",
+  "@termsOfUse": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "haveReadLegal": "Я прочитал и принимаю Условия обслуживания и Политику конфиденциальности",
+  "@haveReadLegal": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "continueText": "Продолжить",
+  "@continueText": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "next": "Далее",
+  "@next": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "backupCopy": "Резервная копия вашего кошелька",
+  "@backupCopy": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "backupCopyHint": "Сейчас вы увидите 12 слов, которые позволят вам восстановить доступ к кошельку. Будьте готовы сохранить секретную фразу в безопасном месте.",
+  "@backupCopyHint": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "backupCopyAgree": "Я понимаю, что если потеряю секретную фразу, то не смогу восстановить доступ к своему кошельку",
+  "@backupCopyAgree": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "generateMnemonic": "Сгенерировать слова",
+  "@generateMnemonic": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "generateQrCode": "Сгенерировать QR-code",
+  "@generateQrCode": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "yourSecretPhrase": "Ваша секретная фраза",
+  "@yourSecretPhrase": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "secretPhraseHint": "Запишите и сохраните эти слова в правильном порядке. Храните фразу в надежном месте и никому ее не передавайте.",
+  "@secretPhraseHint": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "copyPhrase": "Скопировать фразу",
+  "@copyPhrase": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "showQrCode": "Показать QR-код",
+  "@showQrCode": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "haveSecurelySavedPhrase": "Я надежно сохранил фразу",
+  "@haveSecurelySavedPhrase": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "verifyPhrase": "Подтвердите фразу восстановления",
+  "@verifyPhrase": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "verifyPhraseHint": "Нажимайте на слова в правильном порядке, чтобы создать кошелёк.",
+  "@verifyPhraseHint": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "verify": "Подтвердить",
+  "@verify": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "currentBalance": "Текущий баланс",
+  "@currentBalance": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "tryAgain": "Попробуйте снова",
+  "@tryAgain": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "errorDetails": "Подробнее об ошибке",
+  "@errorDetails": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "mnemonicHasCopied": "Фраза скопирована в буфер обмена",
+  "@mnemonicHasCopied": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "qrCode": "QR-код",
+  "@qrCode": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "mnemonicQrCodeHint": "В этом QR-коде содержится ваша секретная фраза. Сохраните код в надежном месте и никому его не передавайте.",
+  "@mnemonicQrCodeHint": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "excellent": "Отлично!",
+  "@excellent": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transfer": "Отправить",
+  "@transfer": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "receive": "Получить",
+  "@receive": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "copy": "Скопировать",
+  "@copy": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transactions": "Транзакции",
+  "@transactions": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "noTransactions": "Здесь будут отображаться ваши будущие транзакции",
+  "@noTransactions": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "successfullyCopied": "Адрес скопирован",
+  "@successfullyCopied": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "setAmount": "Укажите сумму",
+  "@setAmount": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "share": "Поделиться",
+  "@share": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "requestCurrency": "Запросить валюту",
+  "@requestCurrency": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "requestMoneyType": "Запросить {currency}",
+  "@requestMoneyType": {
+    "type": "text",
+    "placeholders_order": [
+      "currency"
+    ],
+    "placeholders": {
+      "currency": {}
+    }
+  },
+  "enterAmount": "Введите сумму",
+  "@enterAmount": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transferCurrency": "Запросить валюту",
+  "@transferCurrency": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "paste": "Вставить",
+  "@paste": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "verifyTransactionPageTile": "Подтвердить",
+  "@verifyTransactionPageTile": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "senderAddress": "Адрес отправителя",
+  "@senderAddress": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "recipientAddress": "Адрес получателя",
+  "@recipientAddress": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "networkFee": "Комиссия за транзакцию в сети",
+  "@networkFee": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "sendMoney": "Отправить {total}",
+  "@sendMoney": {
+    "type": "text",
+    "placeholders_order": [
+      "total"
+    ],
+    "placeholders": {
+      "total": {}
+    }
+  },
+  "settings": "Настройки",
+  "@settings": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "wallet": "Кошелёк",
+  "@wallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "wallets": "Кошельки",
+  "@wallets": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "security": "Безопасность",
+  "@security": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "availableBalance": "Сейчас на балансе",
+  "@availableBalance": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "pinCode": "PIN-код",
+  "@pinCode": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "password": "Пароль",
+  "@password": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "biometric": "Биометрия",
+  "@biometric": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "autoBlocking": "Автоматическая блокировка",
+  "@autoBlocking": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "autoBlockingInstant": "Немедленно",
+  "@autoBlockingInstant": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "autoBlockingIn1Minute": "Через 1 минуту",
+  "@autoBlockingIn1Minute": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "autoBlockingIn5Minutes": "Через 5 минут",
+  "@autoBlockingIn5Minutes": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "autoBlockingIn1Hour": "Через 1 час",
+  "@autoBlockingIn1Hour": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "autoBlockingIn5Hour": "Через 5 часов",
+  "@autoBlockingIn5Hour": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "createPinCode": "Придумайте код",
+  "@createPinCode": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "enterPinCode": "Введите код",
+  "@enterPinCode": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "toAccessTheApplication": "для доступа к приложению",
+  "@toAccessTheApplication": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "toUnlock": "для разблокировки",
+  "@toUnlock": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "createPassword": "Придумайте пароль",
+  "@createPassword": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "repeatPassword": "Повторите пароль",
+  "@repeatPassword": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "enterPasswordAgain": "введите пароль еще раз",
+  "@enterPasswordAgain": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "enterPassword": "Введите пароль",
+  "@enterPassword": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "setPassword": "Задайте пароль",
+  "@setPassword": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "submit": "Отправить",
+  "@submit": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "addToken": "Добавить токен",
+  "@addToken": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "addNewToken": "Добавить новый токен",
+  "@addNewToken": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "searchInputTitle": "Поиск...",
+  "@searchInputTitle": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "networkTokenType": "Тип сети",
+  "@networkTokenType": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "selectNetwork": "Выберите сеть",
+  "@selectNetwork": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "name": "Имя",
+  "@name": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "contractAddress": "Адрес контракта",
+  "@contractAddress": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "symbol": "Символ",
+  "@symbol": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "decimals": "Decimals",
+  "@decimals": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "notFound": "Ничего не найдено",
+  "@notFound": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "unexpectedError": "Непредвиденная ошибка",
+  "@unexpectedError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "feeOutOfRange": "Необходимо ввести сумму от {min} до {max}",
+  "@feeOutOfRange": {
+    "type": "text",
+    "placeholders_order": [
+      "min",
+      "max"
+    ],
+    "placeholders": {
+      "min": {},
+      "max": {}
+    }
+  },
+  "insufficientBalance": "Недостаточно средств на балансе",
+  "@insufficientBalance": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "insufficientBalanceButtonTitle": "Недостаточно средств",
+  "@insufficientBalanceButtonTitle": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "cancelled": "Действие отменено",
+  "@cancelled": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "save": "Сохранить",
+  "@save": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "delete": "Удалить",
+  "@delete": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "selectWallet": "Выбрать кошелёк",
+  "@selectWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "selectWalletError": "Не удалось выбрать кошелек",
+  "@selectWalletError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "showSecretPhrase": "Показать секретную фразу",
+  "@showSecretPhrase": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "selectWalletSuccess": "Кошелёк успешно выбран",
+  "@selectWalletSuccess": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "incomingTransaction": "Входящая транзакция",
+  "@incomingTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "pendingTransaction": "Ожидающая транзакция",
+  "@pendingTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "outgoingTransaction": "Исходящая транзакция",
+  "@outgoingTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "confirmation": "Подтверждения",
+  "@confirmation": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transactionTime": "Время транзакции",
+  "@transactionTime": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transactionHash": "Хэш транзакции",
+  "@transactionHash": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "failedTransaction": "Неудачная транзакция",
+  "@failedTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transactionStatus": "Статус транзакции",
+  "@transactionStatus": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "successTransaction": "Успешно",
+  "@successTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "inProgressTransaction": "Выполняется",
+  "@inProgressTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "shareTransaction": "Поделиться транзакцией",
+  "@shareTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transactionDetails": "Детали транзакции",
+  "@transactionDetails": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "invalidMnemonic": "Вы неверно ввели фразу. Попробуйте снова.",
+  "@invalidMnemonic": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "passwordValidityToRules": "Пароль должен содержать:",
+  "@passwordValidityToRules": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "symbolsNotUse": "символы не используются ( скобки, знаки препинания и т.д.)",
+  "@symbolsNotUse": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "onlyLatinLetter": "только латинские буквы",
+  "@onlyLatinLetter": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "minOneUppercaseLetter": "мин. 1 заглавная буква",
+  "@minOneUppercaseLetter": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "minOneLowercaseLetter": "мин. 1 прописная буква",
+  "@minOneLowercaseLetter": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "minOneDigit": "мин. 1 цифра",
+  "@minOneDigit": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "min6Characters": "мин. 6 знаков",
+  "@min6Characters": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "invalidAddress": "Невалидный адрес для этой сети",
+  "@invalidAddress": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletAlreadyExists": "Кошелёк уже существует",
+  "@walletAlreadyExists": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletWithThisNameAlreadyExists": "Кошелёк c этим именем уже существует",
+  "@walletWithThisNameAlreadyExists": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "errorAddingNewToken": "Ошибка добавления токена",
+  "@errorAddingNewToken": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "multiCoinWallet": "Мультимонетный кошелёк",
+  "@multiCoinWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "import": "Импортировать",
+  "@import": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "whatIsAsecretPhrase": "Что такое секретная фраза?",
+  "@whatIsAsecretPhrase": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "secretPhrase": "Секретная фраза",
+  "@secretPhrase": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "aboutSecretPhrase": "Обычно 12 (иногда 24) слов, разделенных пробелом",
+  "@aboutSecretPhrase": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "cryptoCardWallet": "CryptoCardWallet кошелёк",
+  "@cryptoCardWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "addressCopied": "Адрес успешно скопирован",
+  "@addressCopied": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "hashCopied": "Хэш успешно скопирован",
+  "@hashCopied": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "assetAdded": "Валюта успешно добавлена",
+  "@assetAdded": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "importWalletStandardName": "Мультимонетный кошелёк",
+  "@importWalletStandardName": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "success": "Успешно",
+  "@success": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ok": "ОК",
+  "@ok": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "demo": "ДЕМО",
+  "@demo": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ohno": "Что-то пошло не так :(",
+  "@ohno": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "invalidValue": "Неверное значение",
+  "@invalidValue": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "showStackTrace": "Show stack trace",
+  "@showStackTrace": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "hideStackTrace": "Hide stack trace",
+  "@hideStackTrace": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "passwordNotMatch": "Пароли не совпадают",
+  "@passwordNotMatch": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "pinNotMatch": "PIN-код не совпадает",
+  "@pinNotMatch": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "enableCameraPermission": "Пожалуйста, включите разрешение на доступ к камере",
+  "@enableCameraPermission": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "failedToLoadSession": "Не удалось загрузить сессию",
+  "@failedToLoadSession": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "connectionError": "Ошибка соединения",
+  "@connectionError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "none": "Отсутствует",
+  "@none": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "fingerprint": "Отпечаток пальца",
+  "@fingerprint": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "faceID": "Face ID",
+  "@faceID": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "invalidPinCode": "Неверный PIN-код",
+  "@invalidPinCode": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "invalidPassword": "Неверный пароль",
+  "@invalidPassword": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "invalidBiometric": "Неверная биометрия",
+  "@invalidBiometric": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "currencyNotFound": "Валюта не найдена",
+  "@currencyNotFound": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "failedGenerateWallet": "Не удалось создать кошелёк",
+  "@failedGenerateWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "failedLoadingWalletState": "Не удалось создать кошелёк",
+  "@failedLoadingWalletState": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "noInternetError": "Отсутствует подключение к сети Интернет",
+  "@noInternetError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "noConnectionToOurServers": "Нет подключения к нашим серверам",
+  "@noConnectionToOurServers": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "notAuthError": "Пользователь не авторизован",
+  "@notAuthError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "invalidAssetState": "Невалидное состояние ассета",
+  "@invalidAssetState": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "noContractInGivenToken": "В данном токене отсуствует контракт",
+  "@noContractInGivenToken": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "successfullyPushedTransaction": "Транзакция успешно отправлена",
+  "@successfullyPushedTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "letIsStart": "Let’s start",
+  "@letIsStart": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "openWallet": "Откройте криптовалютный кошелёк",
+  "@openWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWallet": "KeyWallet",
+  "@keyWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWalletWallet": "KeyWallet кошелёк",
+  "@keyWalletWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "orderEnterKeyWallet": "Закажите или подключите свой KeyWallet",
+  "@orderEnterKeyWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "bankCard": "Bank card",
+  "@bankCard": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "createOrOrderBankCard": "Закажите или подключите банковскую карту",
+  "@createOrOrderBankCard": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "getReadyKeyWallet": "Приготовьте карту KeyWallet для её активации и создания кошелька. Если у вас нет карты - закажите её на сайте.",
+  "@getReadyKeyWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "orderKeyWallet": "Заказать KeyWallet",
+  "@orderKeyWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "activateKeyWallet": "Активировать KeyWallet",
+  "@activateKeyWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "startVerification": "Начать верификацию",
+  "@startVerification": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "bringKeyWallet": "Поднесите KeyWallet к телефону",
+  "@bringKeyWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "bringKeyWalletLong": "Поднесите KeyWallet к верхней части вашего телефона. Не убирайте карту до завершения верификации.",
+  "@bringKeyWalletLong": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "setPinCode": "Установка PIN-кода",
+  "@setPinCode": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "setPinCodeRecommendation": "Для вашей безопасности мы рекомендуем установить PIN-код на KeyWallet. Если вы потеряете доступ к Key Wallet мы запросим этот код.",
+  "@setPinCodeRecommendation": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "continueWithOutPinCode": "Продолжить без PIN-кода",
+  "@continueWithOutPinCode": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "assetStateNotFound": "ERROR ASSET STATE NOT FOUND",
+  "@assetStateNotFound": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transactionNotFound": "ERROR TRX NOT FOUND",
+  "@transactionNotFound": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "currencyNotSupported": "ERROR CURRENCY NOT SUPPORTED",
+  "@currencyNotSupported": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "addressNotFound": "ERROR ADDRESS NOT FOUND",
+  "@addressNotFound": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "assetNotFound": "ERROR ASSET NOT FOUND",
+  "@assetNotFound": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "authorizationMissing": "ERROR AUTH MISSING",
+  "@authorizationMissing": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "authorizationForbidden": "ERROR AUTH FORBIDDEN",
+  "@authorizationForbidden": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "invalidAuthorization": "ERROR AUTH INVALID",
+  "@invalidAuthorization": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "cannotParseJWTToken": "ERROR AUTH CANNOT PARSE TOKEN",
+  "@cannotParseJWTToken": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "invalidAuthorizationToken": "ERROR AUTH TOKEN INVALID",
+  "@invalidAuthorizationToken": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "userNotFound": "ERROR AUTH USER NOT FOUND",
+  "@userNotFound": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "noPermission": "ERROR AUTH NO PERMISSION",
+  "@noPermission": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "badPassword": "ERROR AUTH BAD PASSWORD",
+  "@badPassword": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "seedIsNotSet": "ERROR AUTH SEED NOT SET",
+  "@seedIsNotSet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "seedNotFound": "ERROR AUTH SEED NOT FOUND",
+  "@seedNotFound": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "addressNotSet": "ERROR ADDRESS NOT SET",
+  "@addressNotSet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "apiCurrencyNotFound": "ERROR CURRENCY NOT FOUND",
+  "@apiCurrencyNotFound": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transactionNotSet": "ERROR TRX NOT SET",
+  "@transactionNotSet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "assetStateInvalid": "ERROR ASSET STATE INVALID",
+  "@assetStateInvalid": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "assetIdIsNotSet": "ERROR ASSET NOT SET",
+  "@assetIdIsNotSet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "assetInvalid": "ERROR ASSET INVALID",
+  "@assetInvalid": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "currencyNotSet": "ERROR CURRENCY NOT SET",
+  "@currencyNotSet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "goBack": "Вернуться",
+  "@goBack": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "changePin": "Сменить PIN-код",
+  "@changePin": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "viewCardData": "Просмотреть данные о карте",
+  "@viewCardData": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "addKeyWalletCard": "Привязать KeyWallet карту",
+  "@addKeyWalletCard": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "removeKeyWalletCard": "Отвязать KeyWallet карту",
+  "@removeKeyWalletCard": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWalletCardData": "Информация о KeyWallet карте",
+  "@keyWalletCardData": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "cardIdLabel": "Идентификатор карты",
+  "@cardIdLabel": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "cardPublicKeyLabel": "Публичный ключ карты",
+  "@cardPublicKeyLabel": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "cardStatusLabel": "Состояние KeyWallet карты",
+  "@cardStatusLabel": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletPublicKeyLabel": "Публичный ключ кошелька",
+  "@walletPublicKeyLabel": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWalletPinChangedSuccessfullyChanged": "Pin-код KeyWallet карты успешно изменён",
+  "@keyWalletPinChangedSuccessfullyChanged": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWalletCardAlreadyAdded": "KeyWallet карта уже добавлена",
+  "@keyWalletCardAlreadyAdded": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWalletCardNotAddedYet": "KeyWallet карта ещё не добавлена",
+  "@keyWalletCardNotAddedYet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "advancedBtc": "Расширенная конфигурация BTC",
+  "@advancedBtc": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "advancedSettings": "Конфигурации",
+  "@advancedSettings": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "maxFeeSat": "Макс. комиссия (сатоши/байт):",
+  "@maxFeeSat": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "minFeeSat": "Мин. комиссия (сатоши/байт):",
+  "@minFeeSat": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "sizeOfFeeSat": "Размер комиссии (сатоши/байт)",
+  "@sizeOfFeeSat": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transactionHint": "Снижение цены может привести к задержке или отмене транзакции",
+  "@transactionHint": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "gasPrice": "Цена Газа (Gwei)",
+  "@gasPrice": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "gasLimit": "Лимит Газа",
+  "@gasLimit": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "nonce": "Nonce",
+  "@nonce": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWalletWallets": "KeyWallet кошельки",
+  "@keyWalletWallets": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWalletSettings": "Настройки KeyWallet",
+  "@keyWalletSettings": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWalletActions": "Действия с KeyWallet картой",
+  "@keyWalletActions": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "noWallets": "Кошельков нет",
+  "@noWallets": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "nfcIsDisable": "NFC выключен",
+  "@nfcIsDisable": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "notEnoughUtxo": "Недостаточно UTXO для текущей транзакции",
+  "@notEnoughUtxo": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "totalBalance": "Общий баланс",
+  "@totalBalance": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletDeleteSuccessfully": "Кошелёк успешно удалён",
+  "@walletDeleteSuccessfully": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "importWallet": "Импортировать кошелёк",
+  "@importWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "createWalletWays": "Способы создания кошелька",
+  "@createWalletWays": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "validationRequiredError": "Данное поле является обязательным",
+  "@validationRequiredError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "validationDecimalError": "Должен быть действительный номер",
+  "@validationDecimalError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "validationOnlyDigitsError": "Значение не может быть равным нулю",
+  "@validationOnlyDigitsError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "validationNonNegativeNumberError": "Допускается использовать только положительные числа",
+  "@validationNonNegativeNumberError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "validationNonZeroNumberError": "Значение не может быть равным нулю",
+  "@validationNonZeroNumberError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "validationMinLengthError": "В строке должно быть {length} символов",
+  "@validationMinLengthError": {
+    "type": "text",
+    "placeholders_order": [
+      "length"
+    ],
+    "placeholders": {
+      "length": {}
+    }
+  },
+  "validationExactLengthError": "В строке должно быть не менее {length} символов",
+  "@validationExactLengthError": {
+    "type": "text",
+    "placeholders_order": [
+      "length"
+    ],
+    "placeholders": {
+      "length": {}
+    }
+  },
+  "validationWordCountError": "В строке должно быть не менее {length} слов",
+  "@validationWordCountError": {
+    "type": "text",
+    "placeholders_order": [
+      "length"
+    ],
+    "placeholders": {
+      "length": {}
+    }
+  },
+  "validationLatinLowerCaseError": "Допускаются только латинские строчные буквы",
+  "@validationLatinLowerCaseError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "validationPasswordError": "Пароль должен содержать не менее 6 символов, в том числе: как минимум одну заглавную и строчную латинскую букву и цифру.",
+  "@validationPasswordError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "permissionDenied": "PERMISSION DENIED",
+  "@permissionDenied": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "badRequest": "BAD REQUEST",
+  "@badRequest": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "internalServer": "INTERNAL SERVER",
+  "@internalServer": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "unauthorized": "UNAUTHORIZED",
+  "@unauthorized": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "keyWalletMethodNotFoundError": "Метод KeyWallet не найден",
+  "@keyWalletMethodNotFoundError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "close": "закрыть",
+  "@close": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "thisWalletAlreadyExist": "Этот кошелёк уже импортирован",
+  "@thisWalletAlreadyExist": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "notEnoughResourcesForTransaction": "Недостаточно средств для комиссии",
+  "@notEnoughResourcesForTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletNameChanged": "Имя кошелька изменено",
+  "@walletNameChanged": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "currenciesNotAddedYet": "Валюты ещё не добавлены",
+  "@currenciesNotAddedYet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "openSetting": "Открыть настройки",
+  "@openSetting": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "openSettingToEnableCamera": "Разрешение на камеру полностью отклонено. Нужно дать разрешение в настройках. Открыть настройки?",
+  "@openSettingToEnableCamera": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "yes": "Да",
+  "@yes": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "no": "Нет",
+  "@no": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transactionSpeed": "Скорость транзакции",
+  "@transactionSpeed": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "minutesShort": "мин.",
+  "@minutesShort": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "hourShort": "ч.",
+  "@hourShort": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "satoshiPerByte": "сатоши/байт",
+  "@satoshiPerByte": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "avgConfirmationTime": "Среднее время подтверждения",
+  "@avgConfirmationTime": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "highForTransactionSpeed": "Высокая",
+  "@highForTransactionSpeed": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "middleForTransactionSpeed": "Средняя",
+  "@middleForTransactionSpeed": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "lowForTransactionSpeed": "Низкая",
+  "@lowForTransactionSpeed": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "customForTransaction": "Индивидуальная",
+  "@customForTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "enterFee": "Введите комиссию в сатоши/байт",
+  "@enterFee": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "fromTotalAmount": "от общей суммы",
+  "@fromTotalAmount": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "assetWithSymbolNotFound": "Ассет с символом {symbol} не нейден",
+  "@assetWithSymbolNotFound": {
+    "type": "text",
+    "placeholders_order": [
+      "symbol"
+    ],
+    "placeholders": {
+      "symbol": {}
+    }
+  },
+  "hide": "Скрыть",
+  "@hide": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "contextNotFoundException": "Context Not Found Exception",
+  "@contextNotFoundException": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "networks": "Сети",
+  "@networks": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "otherNetworks": "Другие сети",
+  "@otherNetworks": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "sureToChangeNetwork": "Вы уверены, что хотите переключить сеть?",
+  "@sureToChangeNetwork": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "switchTo": "переключить на",
+  "@switchTo": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "back": "Назад",
+  "@back": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletConnect": "WalletConnect",
+  "@walletConnect": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletConnectInfoText": "Подключите свой кошелек к WalletConnect для совершения транзакций",
+  "@walletConnectInfoText": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "information": "Информация",
+  "@information": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletConnectInfo": "WalletConnect — это протокол с открытым исходным кодом, который позволяет подключить мобильный кошелек к децентрализованным приложениям (dApps) с помощью QR-кода. Помните о необходимости отключаться по окончании работы с dApps из соображений безопасности.",
+  "@walletConnectInfo": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "newConnection": "Новое подключение",
+  "@newConnection": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "activeSessionWillBeHere": "Активные соединения появятся здесь",
+  "@activeSessionWillBeHere": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "wantsToConnect": "хочет подключится к вашему кошельку",
+  "@wantsToConnect": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletConnectText1": "Просмотр баланса и активности кошелька",
+  "@walletConnectText1": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletConnectText2": "Запрос на одобрения транзакций",
+  "@walletConnectText2": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "connect": "Подключиться",
+  "@connect": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "reject": "Отклонить",
+  "@reject": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "connected": "Подключен",
+  "@connected": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "address": "Адрес",
+  "@address": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "disconnect": "Отключить",
+  "@disconnect": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "smartContractCall": "Вызов Смарт Контракта",
+  "@smartContractCall": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "active": "Актив",
+  "@active": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "from": "От",
+  "@from": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "networkFeeWc": "Сетевой сбор",
+  "@networkFeeWc": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "maxTotal": "Макс Тотал",
+  "@maxTotal": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "wcWarningText": "Убедитесь что вы доверяете этому сайту. Взаимодействуя с ним, вы разрешаете этому сайту получить доступ к вашим средствам",
+  "@wcWarningText": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "wcAddressChange": "Адреса в активных сессиях по WalletConnect будут изменены в следующих DApp:",
+  "@wcAddressChange": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "transactionData": "Данные транзакции",
+  "@transactionData": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "dataToSign": "Данные для подписания",
+  "@dataToSign": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "sessionWasDisconnected": "Сессия была разъединена",
+  "@sessionWasDisconnected": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "connectedTo": "Подключен к {dAppUrl}",
+  "@connectedTo": {
+    "type": "text",
+    "placeholders_order": [
+      "dAppUrl"
+    ],
+    "placeholders": {
+      "dAppUrl": {}
+    }
+  },
+  "trc10TokenRequires7Digits": "Адрес контракта TRC10 должен состоять из 7-значного цифрового значения",
+  "@trc10TokenRequires7Digits": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "trc20TokenRequires34stringLength": "Адрес контракта TRC20 должен состоять из 34-значного значения",
+  "@trc20TokenRequires34stringLength": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "tokenAlreadyAdded": "Токен уже добавлен",
+  "@tokenAlreadyAdded": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "tronNetworkProhibitsTransactionsToYourself": "Сеть Tron запрещает транзакции самому себе",
+  "@tronNetworkProhibitsTransactionsToYourself": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "unknownTronNodeError": "Непредвиденная ошибка. Попробуйте провести транзакцию позже. \nСообщение с сервера: ${message}",
+  "@unknownTronNodeError": {
+    "type": "text",
+    "placeholders_order": [
+      "message"
+    ],
+    "placeholders": {
+      "message": {}
+    }
+  },
+  "transactionTimeExpired": "Время транзакции истекло. Попробуйте еще раз.",
+  "@transactionTimeExpired": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "contractValidationFailed": "Контракт не найден",
+  "@contractValidationFailed": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "nativeCoin": "Нативная монета",
+  "@nativeCoin": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "decimalValidatorError": "Этот токен не может иметь больше, чем {decimal} десятичных знаков.",
+  "@decimalValidatorError": {
+    "type": "text",
+    "placeholders_order": [
+      "decimal"
+    ],
+    "placeholders": {
+      "decimal": {}
+    }
+  },
+  "contractAddressCopiedWarning": "Вы скопировали адрес смарт-контракта. Любой токен, отправленный на этот адрес, будет потерян.",
+  "@contractAddressCopiedWarning": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "notEnoughTrxToCompleteTransaction": "Недостаточно TRX для проведения транзакции",
+  "@notEnoughTrxToCompleteTransaction": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "cryptoCardWallets": "CryptoCardWallet кошельки",
+  "@cryptoCardWallets": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "orderEnterCryptoCardWallet": "Закажите или подключите свой CryptoCardWallet",
+  "@orderEnterCryptoCardWallet": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "firstTimeGeneratingAddressForCryptoCardWalletForThisAddress": "Первая генерация адреса для этого токена. Нам нужно отсканировать карту CrytoCardWallet этого кошелька!",
+  "@firstTimeGeneratingAddressForCryptoCardWalletForThisAddress": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "cancel": "Отменить",
+  "@cancel": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "walletNameCannotBeSpace": "Имя кошелька не может быть пробелом",
+  "@walletNameCannotBeSpace": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "noTokenForSwapException": "У вас нет токенов для свопа",
+  "@noTokenForSwapException": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "version": "Версия:",
+  "@version": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "buy": "Купить",
+  "@buy": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "amountRecalculated": "Сумма без учета комиссии. Конечная сумма на странице верификации",
+  "@amountRecalculated": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "sendMax": "Отправить макс.",
+  "@sendMax": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "dAppNotSupportAutoSelectNetwork": "не поддерживает автоматичекский выбор сети, пожалуйста выберите сеть",
+  "@dAppNotSupportAutoSelectNetwork": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "replacementTransactionUnderpricedException": "Replacement transaction underpriced error",
+  "@replacementTransactionUnderpricedException": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "currencies": "Валюты",
+  "@currencies": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "tooSmallDustValueForTransactionException": "Слишком маленькое значение \"dust\" для проведения транзакции. Попробуйте увеличить значение",
+  "@tooSmallDustValueForTransactionException": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "feeCanNotExceed1EthValueForTransactionException": "Комиссия не может превышать максимального значения 1. Попробуйте изменить цену на газ",
+  "@feeCanNotExceed1EthValueForTransactionException": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "feeHigherThanAmount": "Комиссия выше общей доступной суммы {amountMax}",
+  "@feeHigherThanAmount": {
+    "type": "text",
+    "placeholders_order": [
+      "amountMax"
+    ],
+    "placeholders": {
+      "amountMax": {}
+    }
+  },
+  "nonceTooLowTransactionException": "Значение nonce слишком низкое",
+  "@nonceTooLowTransactionException": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "advancedInfo": "Расширенная информация",
+  "@advancedInfo": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "nonceCopied": "Nonce скопирован",
+  "@nonceCopied": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "rawTransactionHex": "Raw transaction hex",
+  "@rawTransactionHex": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "rawTransactionHexCopied": "Raw transaction hex скопирован",
+  "@rawTransactionHexCopied": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "noAvailableWallets": "Нет  доступных кошельков",
+  "@noAvailableWallets": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "selectWalletType": "Выберите тип кошелька",
+  "@selectWalletType": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "otherWalletTypes": "Доступные кошельки",
+  "@otherWalletTypes": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "pinCodeEnter": "Войти по PIN",
+  "@pinCodeEnter": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "authorization": "Авторизация",
+  "@authorization": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "checkWalletType": "Перед подключением убедитесь, что тип кошелька выбран верно",
+  "@checkWalletType": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "turnOff": "Выключить",
+  "@turnOff": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "turnOn": "Включить",
+  "@turnOn": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  }
+}
