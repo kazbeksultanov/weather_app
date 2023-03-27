@@ -25,9 +25,9 @@ dependencies:
 
 
   # Weather_app_configs
-  #  ttm_app_config:
+  #  weather_app_config:
   #    git:
-  #      url: https://github.com/ttm-keywallet/ttm-app-config
+  #      url: https://github.com/ttm-keywallet/weather-app-config
   #      ref: bc7b520b2088fe943e4bcd897fc60ab2e315ad86
 
 
