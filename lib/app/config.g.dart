@@ -39,12 +39,19 @@ Map<String, dynamic> _$$_FeaturesSpecToJson(_$_FeaturesSpec instance) =>
     <String, dynamic>{};
 
 _$_AppConfig _$$_AppConfigFromJson(Map<String, dynamic> json) => _$_AppConfig(
+      appConfigs: $enumDecode(_$AppConfigsEnumMap, json['appConfigs']),
       configs: ConfigSpec.fromJson(json['configs'] as Map<String, dynamic>),
       features: FeaturesSpec.fromJson(json['features'] as Map<String, dynamic>),
     );
 
 Map<String, dynamic> _$$_AppConfigToJson(_$_AppConfig instance) =>
     <String, dynamic>{
+      'appConfigs': _$AppConfigsEnumMap[instance.appConfigs]!,
       'configs': instance.configs.toJson(),
       'features': instance.features.toJson(),
     };
+
+const _$AppConfigsEnumMap = {
+  AppConfigs.test: 'test',
+  AppConfigs.release: 'release',
+};

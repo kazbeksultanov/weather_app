@@ -33,7 +33,7 @@ class DebugConfigServiceImpl implements DebugConfigService {
   Future<AppConfig> retrieveConfig() async {
     try {
       final def = _defaultAppConfig;
-      if (def.configs.configName != 'RELEASE') {
+      if (def.appConfigs != AppConfigs.release) {
         final config = await _configStorage.read();
         await setupConfig(config!);
         return config;

@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:drivers/dependencies.dart';
 import 'package:drivers/exceptions/common.dart';
 import 'package:drivers/log.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -20,6 +21,7 @@ import 'package:weather_app/app/services/errors.dart';
 import 'package:weather_app/app/ui/colors.dart';
 import 'package:weather_app/app/ui/themes.dart';
 import 'package:weather_app/app/ui_services/impl/debug_float_panel.dart';
+import 'package:weather_app/firebase_options.dart';
 import 'package:weather_app/layers/services/storages/impl/saved_city_hive.dart';
 
 Future<void> bootstrapApp({
@@ -27,6 +29,7 @@ Future<void> bootstrapApp({
   required WeatherApp Function() app,
 }) async {
   await setupLauncherDependencies(config);
+  WidgetsFlutterBinding.ensureInitialized();
   await setUpApp();
   Bloc.observer = AppBlocObserver();
   runApp(app());
@@ -35,14 +38,18 @@ Future<void> bootstrapApp({
 Future<void> setUpApp() async {
   final config = resolveDependency<AppConfig>();
 
-  await Hive.initFlutter();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   if (config.configs.reportCrashesEnabled) {
     await FirebaseCrashlytics.instance.setCrashlyticsCollectionEnabled(true);
   }
 
+  await Hive.initFlutter();
   if (!Hive.isAdapterRegistered(SavedCityInfoAdapter().typeId)) {
     Hive.registerAdapter(SavedCityInfoAdapter());
   }
+
   await setupDependencies();
 }
 

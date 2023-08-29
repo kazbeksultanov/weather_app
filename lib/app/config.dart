@@ -2,6 +2,7 @@ import 'package:drivers/config/lib/models/config.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:weather_app/app/configs.dart';
 
 part 'config.freezed.dart';
 part 'config.g.dart';
@@ -36,9 +37,10 @@ class FeaturesSpec with _$FeaturesSpec {
 class AppConfig extends Equatable with _$AppConfig implements Config {
   @JsonSerializable(explicitToJson: true)
   factory AppConfig({
+    required final AppConfigs appConfigs,
     required final ConfigSpec configs,
     required final FeaturesSpec features,
-    @JsonKey(ignore: true) ConfigContainer? containerValue,
+    @JsonKey(includeFromJson: false, includeToJson: false) ConfigContainer? containerValue,
   }) = _AppConfig;
 
   const AppConfig._();

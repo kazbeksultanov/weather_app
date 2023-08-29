@@ -10,6 +10,7 @@ extension AppConfigsExt on AppConfigs {
     switch (this) {
       case AppConfigs.test:
         return AppConfig(
+          appConfigs: AppConfigs.test,
           configs: const ConfigSpec(
             configName: 'Test',
             geoCodingApiBaseUrl: 'https://geocoding-api.open-meteo.com',
@@ -25,6 +26,7 @@ extension AppConfigsExt on AppConfigs {
         );
       case AppConfigs.release:
         return AppConfig(
+          appConfigs: AppConfigs.release,
           configs: const ConfigSpec(
             configName: 'Release',
             geoCodingApiBaseUrl: 'https://geocoding-api.open-meteo.com',

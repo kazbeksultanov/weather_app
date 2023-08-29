@@ -1,7 +1,7 @@
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
-// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target
+// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
 part of 'config.dart';
 
@@ -422,11 +422,12 @@ AppConfig _$AppConfigFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$AppConfig {
+  AppConfigs get appConfigs => throw _privateConstructorUsedError;
   ConfigSpec get configs => throw _privateConstructorUsedError;
   FeaturesSpec get features => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   ConfigContainer? get containerValue => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   set containerValue(ConfigContainer? value) =>
       throw _privateConstructorUsedError;
 
@@ -442,9 +443,11 @@ abstract class $AppConfigCopyWith<$Res> {
       _$AppConfigCopyWithImpl<$Res, AppConfig>;
   @useResult
   $Res call(
-      {ConfigSpec configs,
+      {AppConfigs appConfigs,
+      ConfigSpec configs,
       FeaturesSpec features,
-      @JsonKey(ignore: true) ConfigContainer? containerValue});
+      @JsonKey(includeFromJson: false, includeToJson: false)
+          ConfigContainer? containerValue});
 
   $ConfigSpecCopyWith<$Res> get configs;
   $FeaturesSpecCopyWith<$Res> get features;
@@ -463,11 +466,16 @@ class _$AppConfigCopyWithImpl<$Res, $Val extends AppConfig>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
+    Object? appConfigs = null,
     Object? configs = null,
     Object? features = null,
     Object? containerValue = freezed,
   }) {
     return _then(_value.copyWith(
+      appConfigs: null == appConfigs
+          ? _value.appConfigs
+          : appConfigs // ignore: cast_nullable_to_non_nullable
+              as AppConfigs,
       configs: null == configs
           ? _value.configs
           : configs // ignore: cast_nullable_to_non_nullable
@@ -508,9 +516,11 @@ abstract class _$$_AppConfigCopyWith<$Res> implements $AppConfigCopyWith<$Res> {
   @override
   @useResult
   $Res call(
-      {ConfigSpec configs,
+      {AppConfigs appConfigs,
+      ConfigSpec configs,
       FeaturesSpec features,
-      @JsonKey(ignore: true) ConfigContainer? containerValue});
+      @JsonKey(includeFromJson: false, includeToJson: false)
+          ConfigContainer? containerValue});
 
   @override
   $ConfigSpecCopyWith<$Res> get configs;
@@ -529,11 +539,16 @@ class __$$_AppConfigCopyWithImpl<$Res>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
+    Object? appConfigs = null,
     Object? configs = null,
     Object? features = null,
     Object? containerValue = freezed,
   }) {
     return _then(_$_AppConfig(
+      appConfigs: null == appConfigs
+          ? _value.appConfigs
+          : appConfigs // ignore: cast_nullable_to_non_nullable
+              as AppConfigs,
       configs: null == configs
           ? _value.configs
           : configs // ignore: cast_nullable_to_non_nullable
@@ -555,20 +570,24 @@ class __$$_AppConfigCopyWithImpl<$Res>
 @JsonSerializable(explicitToJson: true)
 class _$_AppConfig extends _AppConfig {
   _$_AppConfig(
-      {required this.configs,
+      {required this.appConfigs,
+      required this.configs,
       required this.features,
-      @JsonKey(ignore: true) this.containerValue})
+      @JsonKey(includeFromJson: false, includeToJson: false)
+          this.containerValue})
       : super._();
 
   factory _$_AppConfig.fromJson(Map<String, dynamic> json) =>
       _$$_AppConfigFromJson(json);
 
   @override
+  final AppConfigs appConfigs;
+  @override
   final ConfigSpec configs;
   @override
   final FeaturesSpec features;
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   ConfigContainer? containerValue;
 
   @JsonKey(ignore: true)
@@ -587,22 +606,26 @@ class _$_AppConfig extends _AppConfig {
 
 abstract class _AppConfig extends AppConfig {
   factory _AppConfig(
-      {required final ConfigSpec configs,
+      {required final AppConfigs appConfigs,
+      required final ConfigSpec configs,
       required final FeaturesSpec features,
-      @JsonKey(ignore: true) ConfigContainer? containerValue}) = _$_AppConfig;
+      @JsonKey(includeFromJson: false, includeToJson: false)
+          ConfigContainer? containerValue}) = _$_AppConfig;
   _AppConfig._() : super._();
 
   factory _AppConfig.fromJson(Map<String, dynamic> json) =
       _$_AppConfig.fromJson;
 
   @override
+  AppConfigs get appConfigs;
+  @override
   ConfigSpec get configs;
   @override
   FeaturesSpec get features;
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   ConfigContainer? get containerValue;
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   set containerValue(ConfigContainer? value);
   @override
   @JsonKey(ignore: true)

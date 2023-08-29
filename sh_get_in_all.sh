@@ -1,6 +1,6 @@
 #!/bin/bash
 
-flutter pub get ./localization/
-flutter pub get ./forms/
-flutter pub get ./drivers/
-flutter pub get
+flutter pub get --directory packages/localization
+flutter pub get --directory packages/forms
+flutter pub get --directory packages/drivers
+flutter pub get --directory

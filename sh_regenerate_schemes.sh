@@ -1,21 +1,29 @@
 #!/bin/bash
-# Add path generate to DIRECTORIES with space
-# example:
-#   DIRECTORIES="./drivers ./YOUR_PATH ."
-# Always last add "."
-DIRECTORIES="./drivers ."
+
+dirList=("packages/drivers" ".")
 
 BLUE='\033[0;34m'
 ORANGE='\033[0;33m'
 NONCOLOR='\033[0m'
 
-for DIR in ${DIRECTORIES}; do
-    cd "${DIR}" || exit
-    echo "${ORANGE}=======>   ${BLUE}PUB GET IN ${ORANGE}${DIR}${NONCOLOR}";
-    flutter clean
-    flutter pub get
-    flutter packages pub get
-    echo "${ORANGE}=======>   ${BLUE}GENERATE IN ${ORANGE}${DIR} 🔨🔨🔨${NONCOLOR}";
-    flutter packages pub run build_runner build --delete-conflicting-outputs
-    cd ..
+if [[ -n $1 ]]; then
+  dirList=("$1")
+else
+  echo -e "No dir was provided. Will build all ${#dirList[@]} directories."
+fi
+echo "Start generating for folders:"
+for ((i = 0; i < ${#dirList[@]}; i++)); do
+  echo "$((i + 1))) ${dirList[i]}"
+done
+
+for ((i = 0; i < ${#dirList[@]}; i++)); do
+  cd "${dirList[$i]}" || exit
+  echo "${ORANGE}=======>   ${BLUE}PUB GET IN ${ORANGE}${dirList[$i]}${NONCOLOR}"
+  flutter clean
+  flutter pub get
+  flutter packages pub get
+  echo "${ORANGE}=======>   ${BLUE}GENERATE IN ${ORANGE}${dirList[$i]} 🔨🔨🔨${NONCOLOR}"
+  dart run build_runner build --delete-conflicting-outputs
+  cd ..
+  cd ..
 done
